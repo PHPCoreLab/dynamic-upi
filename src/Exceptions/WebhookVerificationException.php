@@ -4,4 +4,6 @@ declare(strict_types=1);
 
 namespace PHPCoreLab\UpiGateway\Exceptions;
 
-final class WebhookVerificationException extends UpiGatewayException {}
+final class WebhookVerificationException extends UpiGatewayException
+{
+}

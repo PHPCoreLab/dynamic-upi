@@ -6,4 +6,6 @@ namespace PHPCoreLab\UpiGateway\Exceptions;
 
 use RuntimeException;
 
-class UpiGatewayException extends RuntimeException {}
+class UpiGatewayException extends RuntimeException
+{
+}

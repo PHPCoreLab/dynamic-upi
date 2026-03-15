@@ -15,9 +15,9 @@ final class PaymentPoller
 
     public function __construct(
         private readonly UpiProviderInterface $provider,
-        private readonly int    $intervalMs  = 3000,
-        private readonly int    $maxAttempts = 20,
-        private readonly string $backoff     = 'linear', // 'linear' | 'exponential'
+        private readonly int $intervalMs = 3000,
+        private readonly int $maxAttempts = 20,
+        private readonly string $backoff = 'linear', // 'linear' | 'exponential'
         ?LoggerInterface $logger = null,
     ) {
         $this->logger = $logger ?? new NullLogger();
