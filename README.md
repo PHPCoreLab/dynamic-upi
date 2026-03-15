@@ -3,14 +3,14 @@
 > Provider-agnostic PHP library for UPI QR code generation and payment status polling.
 > Switch payment gateways — and environments — with a single config change.
 
-[![Latest Version](https://img.shields.io/packagist/v/your-vendor/upi-gateway)](https://packagist.org/packages/your-vendor/upi-gateway)
-[![PHP Version](https://img.shields.io/packagist/php-v/your-vendor/upi-gateway)](https://packagist.org/packages/your-vendor/upi-gateway)
-[![License](https://img.shields.io/packagist/l/your-vendor/upi-gateway)](LICENSE)
+[![Latest Version](https://img.shields.io/packagist/v/PHPCoreLab/upi-gateway)](https://packagist.org/packages/PHPCoreLab/upi-gateway)
+[![PHP Version](https://img.shields.io/packagist/php-v/PHPCoreLab/upi-gateway)](https://packagist.org/packages/PHPCoreLab/upi-gateway)
+[![License](https://img.shields.io/packagist/l/PHPCoreLab/upi-gateway)](LICENSE)
 
 ## Installation
 
 ```bash
-composer require your-vendor/upi-gateway
+composer require PHPCoreLab/upi-gateway
 ```
 
 Requires PHP 8.1+.
@@ -200,7 +200,7 @@ composer analyse   # PHPStan level 8
 
 ## Publishing to Packagist
 
-1. Replace `your-vendor` in `composer.json` with your Packagist vendor name.
+1. Replace `PHPCoreLab` in `composer.json` with your Packagist vendor name.
 2. Tag: `git tag v1.0.0 && git push --tags`
 3. Submit repo URL at packagist.org → Submit.
 4. Enable the GitHub webhook for auto-updates.
