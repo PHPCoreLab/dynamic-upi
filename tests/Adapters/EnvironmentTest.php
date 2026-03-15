@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace DynamicUpi\UpiGateway\Tests\Adapters;
+namespace PHPCoreLab\UpiGateway\Tests\Adapters;
 
 use PHPUnit\Framework\TestCase;
-use DynamicUpi\UpiGateway\Adapters\PhonePe\PhonePeAdapter;
-use DynamicUpi\UpiGateway\Adapters\Razorpay\RazorpayAdapter;
-use DynamicUpi\UpiGateway\Adapters\Paytm\PaytmAdapter;
-use DynamicUpi\UpiGateway\Enums\Environment;
+use PHPCoreLab\UpiGateway\Adapters\PhonePe\PhonePeAdapter;
+use PHPCoreLab\UpiGateway\Adapters\Razorpay\RazorpayAdapter;
+use PHPCoreLab\UpiGateway\Adapters\Paytm\PaytmAdapter;
+use PHPCoreLab\UpiGateway\Enums\Environment;
 
 /**
  * Verify each adapter resolves the correct credential key pair

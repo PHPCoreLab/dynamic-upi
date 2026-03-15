@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace DynamicUpi\UpiGateway\Adapters\Razorpay;
+namespace PHPCoreLab\UpiGateway\Adapters\Razorpay;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
-use DynamicUpi\UpiGateway\Contracts\UpiProviderInterface;
-use DynamicUpi\UpiGateway\DTOs\OrderPayload;
-use DynamicUpi\UpiGateway\DTOs\PaymentState;
-use DynamicUpi\UpiGateway\DTOs\PaymentStatus;
-use DynamicUpi\UpiGateway\DTOs\QrResult;
-use DynamicUpi\UpiGateway\DTOs\RefundResult;
-use DynamicUpi\UpiGateway\Enums\Environment;
-use DynamicUpi\UpiGateway\Exceptions\ProviderException;
-use DynamicUpi\UpiGateway\Exceptions\WebhookVerificationException;
+use PHPCoreLab\UpiGateway\Contracts\UpiProviderInterface;
+use PHPCoreLab\UpiGateway\DTOs\OrderPayload;
+use PHPCoreLab\UpiGateway\DTOs\PaymentState;
+use PHPCoreLab\UpiGateway\DTOs\PaymentStatus;
+use PHPCoreLab\UpiGateway\DTOs\QrResult;
+use PHPCoreLab\UpiGateway\DTOs\RefundResult;
+use PHPCoreLab\UpiGateway\Enums\Environment;
+use PHPCoreLab\UpiGateway\Exceptions\ProviderException;
+use PHPCoreLab\UpiGateway\Exceptions\WebhookVerificationException;
 
 final class RazorpayAdapter implements UpiProviderInterface
 {

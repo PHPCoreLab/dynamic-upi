@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "DynamicUpi\\UpiGateway\\": "src/"
+            "PHPCoreLab\\UpiGateway\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DynamicUpi\\UpiGateway\\Tests\\": "tests/"
+            "PHPCoreLab\\UpiGateway\\Tests\\": "tests/"
         }
     },
     "scripts": {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DynamicUpi\UpiGateway\Exceptions;
+namespace PHPCoreLab\UpiGateway\Exceptions;
 
 final class ProviderException extends UpiGatewayException
 {

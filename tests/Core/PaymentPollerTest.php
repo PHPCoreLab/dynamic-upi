@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace DynamicUpi\UpiGateway\Tests\Core;
+namespace PHPCoreLab\UpiGateway\Tests\Core;
 
 use PHPUnit\Framework\TestCase;
-use DynamicUpi\UpiGateway\Contracts\UpiProviderInterface;
-use DynamicUpi\UpiGateway\Core\PaymentPoller;
-use DynamicUpi\UpiGateway\DTOs\OrderPayload;
-use DynamicUpi\UpiGateway\DTOs\PaymentState;
-use DynamicUpi\UpiGateway\DTOs\PaymentStatus;
-use DynamicUpi\UpiGateway\DTOs\QrResult;
-use DynamicUpi\UpiGateway\DTOs\RefundResult;
+use PHPCoreLab\UpiGateway\Contracts\UpiProviderInterface;
+use PHPCoreLab\UpiGateway\Core\PaymentPoller;
+use PHPCoreLab\UpiGateway\DTOs\OrderPayload;
+use PHPCoreLab\UpiGateway\DTOs\PaymentState;
+use PHPCoreLab\UpiGateway\DTOs\PaymentStatus;
+use PHPCoreLab\UpiGateway\DTOs\QrResult;
+use PHPCoreLab\UpiGateway\DTOs\RefundResult;
 
 final class PaymentPollerTest extends TestCase
 {

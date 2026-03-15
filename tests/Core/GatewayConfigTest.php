@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DynamicUpi\UpiGateway\Tests\Core;
+namespace PHPCoreLab\UpiGateway\Tests\Core;
 
 use PHPUnit\Framework\TestCase;
-use DynamicUpi\UpiGateway\Core\GatewayConfig;
-use DynamicUpi\UpiGateway\Enums\Environment;
+use PHPCoreLab\UpiGateway\Core\GatewayConfig;
+use PHPCoreLab\UpiGateway\Enums\Environment;
 
 final class GatewayConfigTest extends TestCase
 {

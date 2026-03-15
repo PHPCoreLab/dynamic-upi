@@ -2,6 +2,6 @@
 
 declare(strict_types=1);
 
-namespace DynamicUpi\UpiGateway\Exceptions;
+namespace PHPCoreLab\UpiGateway\Exceptions;
 
 final class WebhookVerificationException extends UpiGatewayException {}

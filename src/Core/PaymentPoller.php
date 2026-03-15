@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace DynamicUpi\UpiGateway\Core;
+namespace PHPCoreLab\UpiGateway\Core;
 
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
-use DynamicUpi\UpiGateway\Contracts\UpiProviderInterface;
-use DynamicUpi\UpiGateway\DTOs\PaymentStatus;
+use PHPCoreLab\UpiGateway\Contracts\UpiProviderInterface;
+use PHPCoreLab\UpiGateway\DTOs\PaymentStatus;
 
 final class PaymentPoller
 {

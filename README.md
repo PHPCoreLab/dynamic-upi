@@ -33,8 +33,8 @@ Provide **both** sandbox and live credentials upfront. The active environment
 determines which set is used at runtime — no code changes needed when going live.
 
 ```php
-use DynamicUpi\UpiGateway\UpiGateway;
-use DynamicUpi\UpiGateway\Core\GatewayConfig;
+use PHPCoreLab\UpiGateway\UpiGateway;
+use PHPCoreLab\UpiGateway\Core\GatewayConfig;
 
 $gateway = new UpiGateway(
     GatewayConfig::fromArray([
@@ -83,7 +83,7 @@ you can use the plain `key_id` / `key_secret` keys and the adapter will fall bac
 ### 1. Generate a UPI QR code
 
 ```php
-use DynamicUpi\UpiGateway\DTOs\OrderPayload;
+use PHPCoreLab\UpiGateway\DTOs\OrderPayload;
 
 $order = new OrderPayload(
     orderId:       'ORD-2024-001',
@@ -102,7 +102,7 @@ echo $qr->qrString;       // render as QR image
 **Synchronous:**
 
 ```php
-use DynamicUpi\UpiGateway\DTOs\PaymentState;
+use PHPCoreLab\UpiGateway\DTOs\PaymentState;
 
 $status = $gateway->pollUntilDone(
     transactionId: $qr->transactionId,
@@ -154,8 +154,8 @@ echo $gateway->getEnvironment()->value; // 'sandbox' or 'live'
 ## Adding a Custom Provider
 
 ```php
-use DynamicUpi\UpiGateway\Contracts\UpiProviderInterface;
-use DynamicUpi\UpiGateway\Enums\Environment;
+use PHPCoreLab\UpiGateway\Contracts\UpiProviderInterface;
+use PHPCoreLab\UpiGateway\Enums\Environment;
 
 class CashfreeAdapter implements UpiProviderInterface
 {

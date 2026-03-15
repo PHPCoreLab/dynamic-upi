@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DynamicUpi\UpiGateway\Enums;
+namespace PHPCoreLab\UpiGateway\Enums;
 
 enum Environment: string
 {

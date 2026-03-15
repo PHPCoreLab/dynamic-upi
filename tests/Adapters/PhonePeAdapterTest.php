@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace DynamicUpi\UpiGateway\Tests\Adapters;
+namespace PHPCoreLab\UpiGateway\Tests\Adapters;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
-use DynamicUpi\UpiGateway\Adapters\PhonePe\PhonePeAdapter;
-use DynamicUpi\UpiGateway\DTOs\OrderPayload;
-use DynamicUpi\UpiGateway\DTOs\PaymentState;
-use DynamicUpi\UpiGateway\Exceptions\WebhookVerificationException;
+use PHPCoreLab\UpiGateway\Adapters\PhonePe\PhonePeAdapter;
+use PHPCoreLab\UpiGateway\DTOs\OrderPayload;
+use PHPCoreLab\UpiGateway\DTOs\PaymentState;
+use PHPCoreLab\UpiGateway\Exceptions\WebhookVerificationException;
 
 final class PhonePeAdapterTest extends TestCase
 {

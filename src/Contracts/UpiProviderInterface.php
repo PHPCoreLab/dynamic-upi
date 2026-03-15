@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace DynamicUpi\UpiGateway\Contracts;
+namespace PHPCoreLab\UpiGateway\Contracts;
 
-use DynamicUpi\UpiGateway\DTOs\OrderPayload;
-use DynamicUpi\UpiGateway\DTOs\PaymentStatus;
-use DynamicUpi\UpiGateway\DTOs\QrResult;
-use DynamicUpi\UpiGateway\DTOs\RefundResult;
+use PHPCoreLab\UpiGateway\DTOs\OrderPayload;
+use PHPCoreLab\UpiGateway\DTOs\PaymentStatus;
+use PHPCoreLab\UpiGateway\DTOs\QrResult;
+use PHPCoreLab\UpiGateway\DTOs\RefundResult;
 
 interface UpiProviderInterface
 {

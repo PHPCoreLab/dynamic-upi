@@ -1,6 +1,6 @@
 <?php
 
-namespace DynamicUpi\UpiGateway\DTOs;
+namespace PHPCoreLab\UpiGateway\DTOs;
 
 enum PaymentState: string
 {

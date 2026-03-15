@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DynamicUpi\UpiGateway\DTOs;
+namespace PHPCoreLab\UpiGateway\DTOs;
 
 final class PaymentStatus
 {

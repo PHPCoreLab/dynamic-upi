@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace DynamicUpi\UpiGateway\Core;
+namespace PHPCoreLab\UpiGateway\Core;
 
-use DynamicUpi\UpiGateway\Enums\Environment;
+use PHPCoreLab\UpiGateway\Enums\Environment;
 
 final class GatewayConfig
 {

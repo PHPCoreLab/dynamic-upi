@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace DynamicUpi\UpiGateway;
+namespace PHPCoreLab\UpiGateway;
 
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
-use DynamicUpi\UpiGateway\Adapters\Paytm\PaytmAdapter;
-use DynamicUpi\UpiGateway\Adapters\PhonePe\PhonePeAdapter;
-use DynamicUpi\UpiGateway\Adapters\Razorpay\RazorpayAdapter;
-use DynamicUpi\UpiGateway\Contracts\UpiProviderInterface;
-use DynamicUpi\UpiGateway\Core\GatewayConfig;
-use DynamicUpi\UpiGateway\Core\PaymentPoller;
-use DynamicUpi\UpiGateway\Core\ProviderRegistry;
-use DynamicUpi\UpiGateway\DTOs\OrderPayload;
-use DynamicUpi\UpiGateway\DTOs\PaymentStatus;
-use DynamicUpi\UpiGateway\DTOs\QrResult;
-use DynamicUpi\UpiGateway\DTOs\RefundResult;
-use DynamicUpi\UpiGateway\Enums\Environment;
+use PHPCoreLab\UpiGateway\Adapters\Paytm\PaytmAdapter;
+use PHPCoreLab\UpiGateway\Adapters\PhonePe\PhonePeAdapter;
+use PHPCoreLab\UpiGateway\Adapters\Razorpay\RazorpayAdapter;
+use PHPCoreLab\UpiGateway\Contracts\UpiProviderInterface;
+use PHPCoreLab\UpiGateway\Core\GatewayConfig;
+use PHPCoreLab\UpiGateway\Core\PaymentPoller;
+use PHPCoreLab\UpiGateway\Core\ProviderRegistry;
+use PHPCoreLab\UpiGateway\DTOs\OrderPayload;
+use PHPCoreLab\UpiGateway\DTOs\PaymentStatus;
+use PHPCoreLab\UpiGateway\DTOs\QrResult;
+use PHPCoreLab\UpiGateway\DTOs\RefundResult;
+use PHPCoreLab\UpiGateway\Enums\Environment;
 
 class UpiGateway
 {

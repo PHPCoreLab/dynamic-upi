@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DynamicUpi\UpiGateway\Core;
+namespace PHPCoreLab\UpiGateway\Core;
 
-use DynamicUpi\UpiGateway\Contracts\UpiProviderInterface;
-use DynamicUpi\UpiGateway\Exceptions\ProviderNotFoundException;
+use PHPCoreLab\UpiGateway\Contracts\UpiProviderInterface;
+use PHPCoreLab\UpiGateway\Exceptions\ProviderNotFoundException;
 
 final class ProviderRegistry
 {

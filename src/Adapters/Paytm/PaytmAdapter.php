@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace DynamicUpi\UpiGateway\Adapters\Paytm;
+namespace PHPCoreLab\UpiGateway\Adapters\Paytm;
 
 use GuzzleHttp\Client;
-use DynamicUpi\UpiGateway\Contracts\UpiProviderInterface;
-use DynamicUpi\UpiGateway\DTOs\OrderPayload;
-use DynamicUpi\UpiGateway\DTOs\PaymentStatus;
-use DynamicUpi\UpiGateway\DTOs\QrResult;
-use DynamicUpi\UpiGateway\DTOs\RefundResult;
-use DynamicUpi\UpiGateway\Enums\Environment;
-use DynamicUpi\UpiGateway\Exceptions\ProviderException;
+use PHPCoreLab\UpiGateway\Contracts\UpiProviderInterface;
+use PHPCoreLab\UpiGateway\DTOs\OrderPayload;
+use PHPCoreLab\UpiGateway\DTOs\PaymentStatus;
+use PHPCoreLab\UpiGateway\DTOs\QrResult;
+use PHPCoreLab\UpiGateway\DTOs\RefundResult;
+use PHPCoreLab\UpiGateway\Enums\Environment;
+use PHPCoreLab\UpiGateway\Exceptions\ProviderException;
 
 /**
  * Paytm Dynamic QR adapter.
